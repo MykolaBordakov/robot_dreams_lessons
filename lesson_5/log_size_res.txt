@@ -1,0 +1,5 @@
+lastlog
+dpkg.log
+alternatives.log
+btmp
+wtmp
