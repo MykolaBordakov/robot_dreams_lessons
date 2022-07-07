@@ -1,0 +1,10 @@
+NF
+VGAuthService
+[
+aa-enabled
+aa-exec
+add-apt-repository
+addpart
+apport-bug
+apport-cli
+apport-collect
