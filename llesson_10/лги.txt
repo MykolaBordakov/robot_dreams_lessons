@@ -1,0 +1,12 @@
+Вастановлюєм відповіднго до інструкції (Білд виконувати від root): 
+https://github.com/Mirantis/cri-dockerd
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --cri-socket=unix:///var/run/cri-dockerd.sock
+kubectl taint nodes --all node-role.kubernetes.io/control-plane- node-role.kubernetes.io/master-
+
+
+
+kubeadm join 10.209.10.93:6443 --token 42skws.1j3hxy8ao5ghw6rm \
+        --discovery-token-ca-cert-hash sha256:7b51e9c67fdafc17d609a66beabac2a7a345c0dd9e952d91efaa543344c5a3ef
