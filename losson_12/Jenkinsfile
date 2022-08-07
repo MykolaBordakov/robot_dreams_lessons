@@ -1,13 +1,13 @@
 pipeline {
     agent any
     stages {
-        stage ('Checkout') {
+        stage ('Clone Git data') {
             steps {
                 git branch: 'Jenkins',
                     url:'https://github.com/MykolaBordakov/robot_dreams_lessons.git'
             }
         }
-        stage ('Checkout status Apache') {
+        stage ('Check Apache') {
             steps {
                 dir ('losson_12') {
                     sh 'bash status.sh'
