@@ -1,12 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage ('Clone Git data') {
-            steps {
-                git branch: 'Jenkins',
-                    url:'https://github.com/MykolaBordakov/robot_dreams_lessons.git'
-            }
-        }
         stage ('Check Apache') {
             steps {
                 dir ('losson_12') {
