@@ -1,0 +1,92 @@
+{
+    "EbsOptimized": false,
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/xvda",
+            "Ebs": {
+                "Encrypted": false,
+                "DeleteOnTermination": true,
+                "SnapshotId": "snap-0b1e0b58f54fc89ef",
+                "VolumeSize": 8,
+                "VolumeType": "gp2"
+            }
+        }
+    ],
+    "NetworkInterfaces": [
+        {
+            "AssociatePublicIpAddress": true,
+            "DeleteOnTermination": true,
+            "Description": "",
+            "DeviceIndex": 0,
+            "Groups": [
+                "sg-02b94151edc8b1318"
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "PrivateIpAddresses": [
+                {
+                    "Primary": true,
+                    "PrivateIpAddress": "172.31.46.249"
+                }
+            ],
+            "SubnetId": "subnet-0b9b49dcabbbc0e27",
+            "NetworkCardIndex": 0
+        }
+    ],
+    "ImageId": "ami-09e2d756e7d78558d",
+    "InstanceType": "t2.micro",
+    "KeyName": "Test-irelend",
+    "Monitoring": {
+        "Enabled": false
+    },
+    "Placement": {
+        "AvailabilityZone": "eu-west-1c",
+        "GroupName": "",
+        "Tenancy": "default"
+    },
+    "DisableApiTermination": false,
+    "InstanceInitiatedShutdownBehavior": "stop",
+    "TagSpecifications": [
+        {
+            "ResourceType": "instance",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Test-AWS"
+                }
+            ]
+        }
+    ],
+    "CreditSpecification": {
+        "CpuCredits": "standard"
+    },
+    "CpuOptions": {
+        "CoreCount": 1,
+        "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+        "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+        "Configured": false
+    },
+    "MetadataOptions": {
+        "HttpTokens": "optional",
+        "HttpPutResponseHopLimit": 1,
+        "HttpEndpoint": "enabled",
+        "HttpProtocolIpv6": "disabled",
+        "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+        "Enabled": false
+    },
+    "PrivateDnsNameOptions": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": true,
+        "EnableResourceNameDnsAAAARecord": false
+    },
+    "MaintenanceOptions": {
+        "AutoRecovery": "default"
+    },
+    "DisableApiStop": false
+}
