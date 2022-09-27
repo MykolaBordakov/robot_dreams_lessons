@@ -1,0 +1,1726 @@
+[{
+  "_id": 3,
+  "title": "Specification by Example",
+  "isbn": "1617290084",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1307084400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Gojko Adzic"
+  ],
+  "categories": [
+    "Software Engineering"
+  ]
+},{
+  "_id": 17,
+  "title": "MongoDB in Action",
+  "isbn": "1935182870",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1323676800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+  "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
+  "longDescription": "MongoDB is a document-oriented database that's highly scalable and delivers very high-performance, especially with massive data sets that need to be spread across multiple servers. It blends the things you expect with any database   like indexing, querying, and high availability   with powerful new features like easy horizontal scaling (\"auto-sharding\"), map/reduce aggregation, and a flexible document data model to support dynamic schemas.    MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.    Along the way, all of MongoDB's major features are covered, including:        * Indexes and explain plans for efficient queries      * Atomic operations for managing simple data structures and manipulating complex, rich documents      * GridFS for storing and managing large binary objects (images, videos, etc.) in MongoDB      * Map-reduce for custom aggregations and reporting      * Master-slave replication and replica sets for automated failover      * Auto-sharding for automated horizontal scaling    The handy reference section on schema design patterns will help ease the transition from the relational data model of SQL to MongoDB's document-based data model. The numerous, detailed examples are implemented in Ruby and include comprehensive explanations.    MongoDB has been gaining traction in the developer community for its speed, flexibility, scalability, and ease of use. With production deployments that include SourceForge, Foursquare, and Shutterfly, MongoDB is proving to be a robust and reliable database system that keeps developers happy. Covering everything from installation to application design to deployment, MongoDB In Action is written for the application developer who wants to take advantage of MongoDB and get up and running quickly.",
+  "status": "PUBLISH",
+  "authors": [
+    "Kyle Banker"
+  ],
+  "categories": [
+    "Next Generation Databases"
+  ]
+},{
+  "_id": 74,
+  "title": "SOA Governance in Action",
+  "isbn": "1617290270",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1343372400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dirksen.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jos Dirksen"
+  ],
+  "categories": [
+    "java"
+  ]
+},{
+  "_id": 117,
+  "title": "Managing Components with Modeler",
+  "isbn": "1932394524k-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal11.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 118,
+  "title": "Command-line Processing with CLI",
+  "isbn": "1932394524l-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal12.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 119,
+  "title": "Understanding and Using Chain",
+  "isbn": "1932394524m-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal13.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 120,
+  "title": "Working with the Logging and Discovery Components",
+  "isbn": "1932394524n-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal14.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 121,
+  "title": "Uploading files with FileUpload",
+  "isbn": "1932394524b-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 122,
+  "title": "Handling Protocols with the Net Component",
+  "isbn": "1932394524c-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 123,
+  "title": "XML Parsing with Digester",
+  "isbn": "1932394524d-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal4.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 124,
+  "title": "JXPath and Betwixt: Working with XML",
+  "isbn": "1932394524e-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal5.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 125,
+  "title": "Validating Data with Validator",
+  "isbn": "1932394524f-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal6.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 126,
+  "title": "Enhancing Java Core Libraries with Collections",
+  "isbn": "1932394524g-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal7.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 127,
+  "title": "Enhancing Java Core Libraries with BeanUtils and Lang",
+  "isbn": "1932394524h-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal8.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 128,
+  "title": "Pool and DBCP: Creating and Using Object Pools",
+  "isbn": "1932394524i-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal9.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Vikram Goyal"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 147,
+  "title": "Metaprogramming in .NET",
+  "isbn": "1617290262",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1356940800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hazzard.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Kevin Hazzard",
+    "Jason Bock"
+  ],
+  "categories": [
+    "Microsoft/.NET"
+  ]
+},{
+  "_id": 152,
+  "title": "Agile ALM",
+  "isbn": "1935182633",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1313823600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/huettermann.jpg",
+  "shortDescription": "Many software projects fail unnecessarily because of unclear objectives, redundant and unproductive work, cost overruns, and a host of other avoidable process problems. In response, agile processes and lightweight tooling have begun to replace traditional engineering processes throughout the development lifecycle. An agile approach to application lifecycle management improves product quality, reduces time to market, and makes for happier developers.    Agile ALM is a guide for Java developers who want to integrate flexible agile practices and lightweight tooling along all phases of the software development process. The book introduces a new vision for managing change in requirements and process more efficiently and flexibly. You'll learn powerful practices like task-based Development, where you align activities into tasks resulting in traceable artifacts, Continuous Integration, in which you frequently and systematically integrate, build, and test an application in development and using Scrum as an agile approach to release management. The effect is a more comprehensive and practical approach to build, configuration, deployment, release, test, quality, integration, and requirements management.    This book synthesizes technical and functional elements to provide a comprehensive approach to software development. You'll learn to see the whole scope of the development process as a set of defined tasks, many of which are repeated daily, and then master the tools and practices you need to accomplish each of those tasks efficiently.    Because efficient tool chains can radically improve the speed and fluidity of the development process, this book demonstrates how to integrate state-of-the-art lightweight tools. Many of the tools and examples are Java-based, but the Agile ALM principles apply to all development platforms. As well, the many examples show how you can bridge different languages and systems.",
+  "longDescription": "Many software projects fail unnecessarily because of unclear objectives, redundant and unproductive work, cost overruns, and a host of other avoidable process problems. In response, agile processes and lightweight tooling have begun to replace traditional engineering processes throughout the development lifecycle. An agile approach to application lifecycle management improves product quality, reduces time to market, and makes for happier developers.    Agile ALM is a guide for Java developers who want to integrate flexible agile practices and lightweight tooling along all phases of the software development process. The book introduces a new vision for managing change in requirements and process more efficiently and flexibly. You'll learn powerful practices like task-based Development, where you align activities into tasks resulting in traceable artifacts, Continuous Integration, in which you frequently and systematically integrate, build, and test an application in development and using Scrum as an agile approach to release management. The effect is a more comprehensive and practical approach to build, configuration, deployment, release, test, quality, integration, and requirements management.    This book synthesizes technical and functional elements to provide a comprehensive approach to software development. You'll learn to see the whole scope of the development process as a set of defined tasks, many of which are repeated daily, and then master the tools and practices you need to accomplish each of those tasks efficiently.    Because efficient tool chains can radically improve the speed and fluidity of the development process, this book demonstrates how to integrate state-of-the-art lightweight tools. Many of the tools and examples are Java-based, but the Agile ALM principles apply to all development platforms. As well, the many examples show how you can bridge different languages and systems.",
+  "status": "PUBLISH",
+  "authors": [
+    "Michael Hüttermann"
+  ],
+  "categories": [
+    "Software Engineering"
+  ]
+},{
+  "_id": 163,
+  "title": "Learn Windows PowerShell in a Month of Lunches",
+  "isbn": "1617290211",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1302850800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones.jpg",
+  "shortDescription": "Learn Windows PowerShell in a Month of Lunches is an innovative tutorial designed for busy administrators. Author Don Jones has taught thousands of administrators to use PowerShell, and now he'll teach you, bringing his years of training techniques to a concise, easy-to-follow book. Just set aside one hour a day   lunchtime would be perfect   for an entire month, and you'll be automating administrative tasks faster than you ever thought possible. Don combines his own in-the-trenches experience with years of PowerShell instruction to deliver the most important, effective, and engaging elements of PowerShell to you quickly and painlessly, setting you on the path to a career-boosting future.",
+  "longDescription": "In Windows, there's a control panel, dialog box, administrative console, API, or wizard to manage every component of your system. There are    thousands    of them   so many that it can be nearly impossible to keep track of all the locations and settings you need to administer Windows effectively. For administrators, PowerShell is a godsend because it provides a single, unified command line from which you can control and automate every aspect of Windows. PowerShell finally enables Windows administrators to work in a way that Unix and Linux administrators have leveraged for decades.    Like classic administrative shells, PowerShell accepts and immediately executes typed commands. In addition, it has all the features of a full-fledged programming language built in, so you can create scripts to automate even the most complex tasks. And it's fully aware of all the components of Windows and most Windows servers, so you can use PowerShell to control Exchange, IIS, SharePoint, and other core pieces of your Windows system.    Learn Windows PowerShell in a Month of Lunches is an innovative tutorial designed for busy administrators. Author Don Jones has taught thousands of administrators to use PowerShell, and now he'll teach you, bringing his years of training techniques to a concise, easy-to-follow book. Just set aside one hour a day   lunchtime would be perfect   for an entire month, and you'll be automating administrative tasks faster than you ever thought possible. Don combines his own in-the-trenches experience with years of PowerShell instruction to deliver the most important, effective, and engaging elements of PowerShell to you quickly and painlessly, setting you on the path to a career-boosting future.",
+  "status": "PUBLISH",
+  "authors": [
+    "Don Jones"
+  ],
+  "categories": [
+    "Microsoft .NET"
+  ]
+},{
+  "_id": 172,
+  "title": "Kermit 95+",
+  "isbn": "1930110057",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1041408000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kermit.jpg",
+  "longDescription": "Kermit 95+, Version 2.1 is a full-featured, fully native, 32-bit communications software package for Microsoft Windows 95/98/NT/2000/XP and IBM OS/2 3.0 and later from the Kermit Project at Columbia University. It works uniformly over a variety of connection methods. Included in the Kermit 95+, Version 2.1 bundle: Internet and modem communications, 40+ terminal emulations, Telnet, SSH, Kerberos, SSL/TLS, Unicode. Plus FTP, Kermit, and Zmodem file transfer, a built-in cross-platform scripting language to automate any communications or file management task, and companion Kermit software for Unix and VMS.    For those already familiar with the package, Version 2.1 adds in-the-box exportable secure authentication and strong encryption including SSH v1/v2, a secure scriptable FTP client, and runs in a GUI window with regular Windows font and size selections.",
+  "status": "PUBLISH",
+  "authors": [
+    "Kermit Project at Columbia University"
+  ],
+  "categories": [
+    "Internet",
+    "Networking",
+    "Miscella"
+  ]
+},{
+  "_id": 179,
+  "title": "Making Java Groovy",
+  "isbn": "1935182943",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1379574000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kousen.jpg",
+  "shortDescription": "Making Java Groovy is a practical handbook for developers who want to blend Groovy into their day-to-day work with Java. It starts by introducing the key differences between Java and Groovy   and how you can use them to your advantage. Then, it guides you step-by-step through realistic development challenges, from web applications to web services to desktop applications, and shows how Groovy makes them easier to put into production.",
+  "longDescription": "Java is large and powerful, but that size and power carries with it complexity and accumulated inconsistencies. Groovy is an elegant JVM-based dynamic language that gracefully co-exists with Java. It both extends and simplifies Java   and for most Java developers, Groovy is super easy to learn. If you know where to apply it, adding in a little Groovy will make you a better Java developer.    Making Java Groovy is a practical handbook for developers who want to blend Groovy into their day-to-day work with Java. It starts by introducing the key differences between Java and Groovy   and how you can use them to your advantage. Then, it guides you step-by-step through realistic development challenges, from web applications to web services to desktop applications, and shows how Groovy makes them easier to put into production.    This book stays away from theory and drills down on the typical situations you face every day, like consuming and creating SOAP and RESTful web services, working with databases, and using the Spring framework. You'll also explore the great Groovy tools for build processes, testing, and deployment. Finally, you'll learn how Groovy-based domain specific languages simplify Java development.",
+  "status": "PUBLISH",
+  "authors": [
+    "Kenneth A. Kousen"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 196,
+  "title": "MacRuby in Action",
+  "isbn": "1935182498",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1334127600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lim.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Brendan G. Lim with Jerry Cheung",
+    "Jeremy McAnally"
+  ],
+  "categories": [
+    "Programming"
+  ]
+},{
+  "_id": 217,
+  "title": "Tika in Action",
+  "isbn": "1935182854",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1322726400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mattmann.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Chris A. Mattmann",
+    "Jukka L. Zitting"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 242,
+  "title": "EJB 3 in Action, Second Edition",
+  "isbn": "1935182994",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1396854000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/panda2.jpg",
+  "shortDescription": "Building on the bestselling first edition, EJB 3 in Action, Second Edition tackles EJB 3.1 head-on, through numerous code samples, real-life scenarios, and illustrations. This book is a fast-paced tutorial for Java EE 6 business component development using EJB 3.1, JPA 2 and CDI. Besides covering the basics of EJB 3.1, this book includes in-depth EJB 3.1 internal implementation details, best practices, design patterns, and performance tuning tips. The book also discusses using open source frameworks like Seam and Spring with EJB 3.1.",
+  "longDescription": "The EJB 3 framework was a major advancement for Java EE developers, providing a consistent, easy to use model to create and extend applications. EJB 3 incorporates a POJO programming model and Java 5 annotations, along with the Java Persistence API (JPA), a standard for object-relational mapping. EJB 3.1, the latest version, adds full support for Context and Dependency Injection (CDI), the new standard for type-safe dependency injection for Java EE. With EJB 3.1 you create true object-oriented applications that are easy to write, maintain, and extend.    Building on the bestselling first edition, EJB 3 in Action, Second Edition tackles EJB 3.1 head-on, through numerous code samples, real-life scenarios, and illustrations. This book is a fast-paced tutorial for Java EE 6 business component development using EJB 3.1, JPA 2 and CDI. Besides covering the basics of EJB 3.1, this book includes in-depth EJB 3.1 internal implementation details, best practices, design patterns, and performance tuning tips. The book also discusses using open source frameworks like Seam and Spring with EJB 3.1.",
+  "status": "PUBLISH",
+  "authors": [
+    "Debu Panda",
+    "Reza Rahman",
+    "Ryan Cuprak",
+    "",
+    "Michael Remijan"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 251,
+  "title": "Generative Art",
+  "isbn": "1935182625",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1309417200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pearson.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Matt Pearson"
+  ],
+  "categories": [
+    "Algorithmic Art"
+  ]
+},{
+  "_id": 252,
+  "title": "Windows Phone 7 in Action",
+  "isbn": "1617290092",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1345532400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/perga.jpg",
+  "shortDescription": "Windows Phone 7 in Action is a hands-on guide to building mobile applications for WP7 using Silverlight, C#, and XNA. Written for developers who already know their way around Visual Studio, this book zips through the basics, such as writing code to dial the phone, writing emails, and sending text messages, and moves on to the nuts and bolts of building great phone apps. By working through the numerous examples and tutorials, you'll master the APIs used to work with a phone's sensors and hardware, such as the accelerometer, camera, touch screen, GPS, and microphone. You'll also tackle web services and applications that use location and push notification services.",
+  "longDescription": "Windows Phone 7 is a major shift in the way Microsoft developers design, develop, and sell mobile apps. By leveraging a trio of established technologies-Silverlight, XNA, and C#   developers can blend what they already know about Windows development with the new opportunities and challenges presented by a mobile platform. And with exciting new Windows Phone devices rolling out now, the demand for WP7 apps is just starting to build.    Windows Phone 7 in Action is a hands-on guide to building mobile applications for WP7 using Silverlight, C#, and XNA. Written for developers who already know their way around Visual Studio, this book zips through the basics, such as writing code to dial the phone, writing emails, and sending text messages, and moves on to the nuts and bolts of building great phone apps. By working through the numerous examples and tutorials, you'll master the APIs used to work with a phone's sensors and hardware, such as the accelerometer, camera, touch screen, GPS, and microphone. You'll also tackle web services and applications that use location and push notification services.    Along the way, you'll discover why Microsoft opted for Silverlight and XNA as the core technologies for WP7. As with Silverlight for the desktop, you can create stunning visual effects using C#. Silverlight for Windows Phone has been enriched with navigation services, a new execution model to better satisfy mobile requirements, and hooks for embedding a browser, playing media files, running cool animations, and more.    The XNA Framework provides libraries to handle 3D graphics, audio, and touch input. Because games are a key target of mobile app development, by the end of the book you will be able to write your own XNA game, utilizing the unique input abilities of the phone. You also learn how to tune your game code to get the best performance while running in the phone's constrained environment.",
+  "status": "PUBLISH",
+  "authors": [
+    "Timothy Binkley-Jones",
+    "Massimo Perga",
+    "",
+    "Michael Sync"
+  ],
+  "categories": [
+    "Mobile Technology"
+  ]
+},{
+  "_id": 256,
+  "title": "Machine Learning in Action",
+  "isbn": "1617290181",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1333522800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pharrington.jpg",
+  "shortDescription": "Machine Learning in Action is a unique book that blends the foundational theories of machine learning with the practical realities of building tools for everyday data analysis. In it, you'll use the flexible Python programming language to build programs that implement algorithms for data classification, forecasting, recommendations, and higher-level features like summarization and simplification.",
+  "longDescription": "It's been said that data is the new \"dirt\"   the raw material from which and on which you build the structures of the modern world. And like dirt, data can seem like a limitless, undifferentiated mass. The ability to take raw data, access it, filter it, process it, visualize it, understand it, and communicate it to others is possibly the most essential business problem for the coming decades.    \"Machine learning,\" the process of automating tasks once considered the domain of highly-trained analysts and mathematicians, is the key to efficiently extracting useful information from this sea of raw data. By implementing the core algorithms of statistical data processing, data analysis, and data visualization as reusable computer code, you can scale your capacity for data analysis well beyond the capabilities of individual knowledge workers.    Machine Learning in Action is a unique book that blends the foundational theories of machine learning with the practical realities of building tools for everyday data analysis. In it, you'll use the flexible Python programming language to build programs that implement algorithms for data classification, forecasting, recommendations, and higher-level features like summarization and simplification.    As you work through the numerous examples, you'll explore key topics like classification, numeric prediction, and clustering. Along the way, you'll be introduced to important established algorithms, such as Apriori, through which you identify association patterns in large datasets and Adaboost, a meta-algorithm that can increase the efficiency of many machine learning tasks.",
+  "status": "PUBLISH",
+  "authors": [
+    "Peter Harrington"
+  ],
+  "categories": [
+    "Software Engineering"
+  ]
+},{
+  "_id": 260,
+  "title": "Activiti in Action",
+  "isbn": "1617290122",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1342076400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rademakers2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Tijs Rademakers"
+  ],
+  "categories": [
+    "Software Engineering"
+  ]
+},{
+  "_id": 265,
+  "title": "Scala in Action",
+  "isbn": "1935182757",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1365490800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/raychaudhuri.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Nilanjan Raychaudhuri"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 271,
+  "title": "Swing",
+  "isbn": "1884777848",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "944035200000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Matthew Robinson",
+    "Pavel Vorobiev"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 282,
+  "title": "OpenCL in Action",
+  "isbn": "1617290173",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1321257600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/scarpino2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Matthew Scarpino"
+  ],
+  "categories": [
+    "Programming"
+  ]
+},{
+  "_id": 292,
+  "title": "PowerShell and WMI",
+  "isbn": "1617290114",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1335769200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Richard Siddaway"
+  ],
+  "categories": [
+    "Microsoft .NET"
+  ]
+},{
+  "_id": 303,
+  "title": "Scala in Depth",
+  "isbn": "1935182706",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1336978800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/suereth.jpg",
+  "shortDescription": "Scala in Depth is a unique new book designed to help you integrate Scala effectively into your development process. By presenting the emerging best practices and designs from the Scala community, it guides you though dozens of powerful techniques example by example. There's no heavy-handed theory here-just lots of crisp, practical guides for coding in Scala.    For example:        * Discover the \"sweet spots\" where object-oriented and functional programming intersect.      * Master advanced OO features of Scala, including type member inheritance, multiple inheritance and composition.      * Employ functional programming concepts like tail recursion, immutability, and monadic operations.      * Learn good Scala style to keep your code concise, expressive and readable.    As you dig into the book, you'll start to appreciate what makes Scala really shine. For instance, the Scala type system is very, very powerful; this book provides use case approaches to manipulating the type system and covers how to use type constraints to enforce design constraints. Java developers love Scala's deep integration with Java and the JVM Ecosystem, and this book shows you how to leverage it effectively and work around the rough spots.",
+  "longDescription": "Scala is a unique and powerful new programming language for the JVM. Blending the strengths of the Functional and Imperative programming models, Scala is a great tool for building highly concurrent applications without sacrificing the benefits of an OO approach. While information about the Scala language is abundant, skilled practitioners, great examples, and insight into the best practices of the community are harder to find. Scala in Depth bridges that gap, preparing you to adopt Scala successfully for real world projects.    Scala in Depth is a unique new book designed to help you integrate Scala effectively into your development process. By presenting the emerging best practices and designs from the Scala community, it guides you though dozens of powerful techniques example by example. There's no heavy-handed theory here-just lots of crisp, practical guides for coding in Scala.    For example:        * Discover the \"sweet spots\" where object-oriented and functional programming intersect.      * Master advanced OO features of Scala, including type member inheritance, multiple inheritance and composition.      * Employ functional programming concepts like tail recursion, immutability, and monadic operations.      * Learn good Scala style to keep your code concise, expressive and readable.    As you dig into the book, you'll start to appreciate what makes Scala really shine. For instance, the Scala type system is very, very powerful; this book provides use case approaches to manipulating the type system and covers how to use type constraints to enforce design constraints. Java developers love Scala's deep integration with Java and the JVM Ecosystem, and this book shows you how to leverage it effectively and work around the rough spots.",
+  "status": "PUBLISH",
+  "authors": [
+    "Joshua D. Suereth"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 306,
+  "title": "GWT in Action, Second Edition",
+  "isbn": "1935182846",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1358755200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tacy.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Adam Tacy",
+    "Robert Hanson",
+    "Jason Essington",
+    "",
+    "Anna Tökke"
+  ],
+  "categories": [
+    "Java"
+  ]
+},{
+  "_id": 310,
+  "title": "Spring Batch in Action",
+  "isbn": "1935182951",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1317452400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/templier.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Arnaud Cogoluegnes",
+    "Thierry Templier",
+    "Gary Gregory",
+    "Olivier Bazoud"
+  ],
+  "categories": [
+    "In Action"
+  ]
+},{
+  "_id": 317,
+  "title": "RabbitMQ in Action",
+  "isbn": "1935182978",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1334905200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/videla.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Alvaro Videla",
+    "Jason J.W. Williams"
+  ],
+  "categories": [
+    "Software Engineering"
+  ]
+},{
+  "_id": 512,
+  "title": "Enterprise OSGi In Action",
+  "isbn": "1617290130",
+  "pageCount": 0,
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cummins.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Holly Cummins",
+    "Timothy Ward"
+  ],
+  "categories": []
+},{
+  "_id": 513,
+  "title": "Ext JS in Action, Second Edition",
+  "isbn": "1617290327",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1391500800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/garcia3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jesus Garcia",
+    "Grgur Grisogono",
+    "",
+    "Jacob K. Andresen"
+  ],
+  "categories": []
+},{
+  "_id": 514,
+  "title": "Android in Action, Third Edition",
+  "isbn": "1617290505",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1321344000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "W. Frank Ableson",
+    "Robi Sen",
+    "Chris King",
+    "C. Enrique Ortiz"
+  ],
+  "categories": []
+},{
+  "_id": 517,
+  "title": "Third-Party JavaScript ",
+  "isbn": "1617290548",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1362985200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/vinegar.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Ben Vinegar",
+    "Anton Kovalyov"
+  ],
+  "categories": []
+},{
+  "_id": 519,
+  "title": "Multimedia Computing",
+  "isbn": "020152029X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "746866800000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Matthew E. Hodges"
+  ],
+  "categories": []
+},{
+  "_id": 520,
+  "title": "Web Development with JavaServer Pages",
+  "isbn": "1884777996",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "958374000000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Duane K. Fields",
+    "Mark A. Kolb"
+  ],
+  "categories": []
+},{
+  "_id": 521,
+  "title": "Up to Speed with Swing",
+  "isbn": "1884777643",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "894006000000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Steven J. Gutz"
+  ],
+  "categories": []
+},{
+  "_id": 522,
+  "title": "Manager's Guide to Open Source",
+  "isbn": "193239429X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1096614000000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Maria Winslow"
+  ],
+  "categories": []
+},{
+  "_id": 523,
+  "title": "Programming Web Services with Java",
+  "isbn": "1930110421",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1033455600000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Ajamu A. Wesley"
+  ],
+  "categories": []
+},{
+  "_id": 525,
+  "title": "TCP/IP Programming for OS/2",
+  "isbn": "132612496",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "830242800000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Steven J. Gutz"
+  ],
+  "categories": []
+},{
+  "_id": 530,
+  "title": "Implementing SAP R/3, Second Edition",
+  "isbn": "013889213X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "873097200000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": 531,
+  "title": "Implementing SAP R/3",
+  "isbn": "1884777228",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "833612400000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": 532,
+  "title": "Using C-Kermit: Communication Software",
+  "isbn": "1884777147",
+  "pageCount": 0,
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": 533,
+  "title": "SCWCD Exam Study Kit",
+  "isbn": "1930110596",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1025506800000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "Hanumant Deshmukh",
+    "Jignesh Malavia"
+  ],
+  "categories": []
+},{
+  "_id": 549,
+  "title": "Unit Testing in C++",
+  "isbn": "1617290386",
+  "pageCount": 0,
+  "status": "PUBLISH",
+  "authors": [
+    "Bruce Trask",
+    "Angel Roman"
+  ],
+  "categories": []
+},{
+  "_id": 551,
+  "title": "CoffeeScript in Action",
+  "isbn": "1617290629",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1399618800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lee.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Patrick Lee"
+  ],
+  "categories": []
+},{
+  "_id": 566,
+  "title": "Hadoop in Practice",
+  "isbn": "1617290238",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1349161200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/holmes.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Alex Holmes"
+  ],
+  "categories": []
+},{
+  "_id": 569,
+  "title": "HBase in Action",
+  "isbn": "1617290521",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1351839600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dimidukkhurana.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Nicholas Dimiduk",
+    "Amandeep Khurana"
+  ],
+  "categories": []
+},{
+  "_id": 571,
+  "title": "Flex Mobile in Action",
+  "isbn": "1617290610",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1338361200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/campos.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jonathan Campos"
+  ],
+  "categories": []
+},{
+  "_id": 577,
+  "title": "HTML5 for .NET Developers",
+  "isbn": "1617290432",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1354262400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jackson.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jim Jackson",
+    "II",
+    "Ian Gilman"
+  ],
+  "categories": []
+},{
+  "_id": 580,
+  "title": "50 Android Hacks",
+  "isbn": "1617290564",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1370242800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sessa.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Carlos M. Sessa"
+  ],
+  "categories": []
+},{
+  "_id": 591,
+  "title": "PowerShell in Depth",
+  "isbn": "1617290556",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1361347200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Don Jones",
+    "Richard Siddaway",
+    "",
+    "Jeffery Hicks"
+  ],
+  "categories": []
+},{
+  "_id": 611,
+  "title": "Linked Data",
+  "isbn": "1617290394",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1388476800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dwood.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "David Wood",
+    "Marsha Zaidman",
+    "Luke Ruth",
+    "with Michael Hausenblas"
+  ],
+  "categories": []
+},{
+  "_id": 620,
+  "title": "Mule in Action, Second Edition",
+  "isbn": "1617290823",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1392883200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dossot2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "David Dossot",
+    "John D'Emic",
+    "",
+    "Victor Romero"
+  ],
+  "categories": []
+},{
+  "_id": 624,
+  "title": "Single Page Web Applications",
+  "isbn": "1617290750",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1379574000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mikowski.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Michael S. Mikowski",
+    "Josh C. Powell"
+  ],
+  "categories": []
+},{
+  "_id": 628,
+  "title": "The Art of Unit Testing, Second Edition",
+  "isbn": "1617290890",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1385366400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/osherove2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Roy Osherove"
+  ],
+  "categories": []
+},{
+  "_id": 629,
+  "title": "Play for Java",
+  "isbn": "1617290904",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1394780400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/leroux.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Nicolas Leroux",
+    "Sietse de Kaper"
+  ],
+  "categories": []
+},{
+  "_id": 631,
+  "title": "Hello World! Second Edition",
+  "isbn": "1617290920",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1386835200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sande2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Warren Sande",
+    "Carter Sande"
+  ],
+  "categories": []
+},{
+  "_id": 632,
+  "title": "Dart in Action",
+  "isbn": "1617290866",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1356940800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/buckett.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Chris Buckett"
+  ],
+  "categories": []
+},{
+  "_id": 634,
+  "title": "Redis in Action",
+  "isbn": "1617290858",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1371538800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/carlson.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Josiah Carlson"
+  ],
+  "categories": []
+},{
+  "_id": 636,
+  "title": "Using the TI-83 Plus/TI-84 Plus",
+  "isbn": "161729084X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1376895600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Christopher R. Mitchell"
+  ],
+  "categories": []
+},{
+  "_id": 639,
+  "title": "Programming the TI-83 Plus/TI-84 Plus",
+  "isbn": "1617290777",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1347606000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Christopher R. Mitchell"
+  ],
+  "categories": []
+},{
+  "_id": 641,
+  "title": "Play for Scala",
+  "isbn": "1617290793",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1380783600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hilton.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Peter Hilton",
+    "Erik Bakker",
+    "",
+    "Francisco Canedo"
+  ],
+  "categories": []
+},{
+  "_id": 643,
+  "title": "SonarQube in Action",
+  "isbn": "1617290955",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1383116400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/papapetrou.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "G. Ann Campbell",
+    "Patroklos P. Papapetrou"
+  ],
+  "categories": []
+},{
+  "_id": 644,
+  "title": "Windows Store App Development: C# and XAML",
+  "isbn": "1617290947",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1370242800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Peter M. Brown"
+  ],
+  "categories": []
+},{
+  "_id": 645,
+  "title": "Learn Windows IIS in a Month of Lunches",
+  "isbn": "1617290971",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1388476800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/helmick.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jason C. Helmick"
+  ],
+  "categories": []
+},{
+  "_id": 646,
+  "title": "Mondrian in Action",
+  "isbn": "161729098X",
+  "pageCount": 0,
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/back.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "William Back",
+    "Nicholas Goodman",
+    "",
+    "Julian Hyde"
+  ],
+  "categories": []
+},{
+  "_id": 650,
+  "title": "Extending jQuery",
+  "isbn": "161729103X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1376290800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wood.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Keith B. Wood"
+  ],
+  "categories": []
+},{
+  "_id": 651,
+  "title": "OCA Java SE 7 Programmer I Certification Guide",
+  "isbn": "1617291048",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1364886000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gupta.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Mala Gupta"
+  ],
+  "categories": []
+},{
+  "_id": 652,
+  "title": "Kanban in Action",
+  "isbn": "1617291056",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1393920000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hammarberg.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Marcus Hammarberg",
+    "Joakim Sunden"
+  ],
+  "categories": []
+},{
+  "_id": 653,
+  "title": "Solr in Action",
+  "isbn": "1617291021",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1395730800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/grainger.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Trey Grainger",
+    "Timothy Potter"
+  ],
+  "categories": []
+},{
+  "_id": 655,
+  "title": "Making Sense of NoSQL",
+  "isbn": "1617291072",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1378191600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mccreary.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Daniel G. McCreary",
+    "Ann M. Kelly"
+  ],
+  "categories": []
+},{
+  "_id": 656,
+  "title": "Jaguar Development with PowerBuilder 7",
+  "isbn": "1884777864",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "934182000000"
+    }
+  },
+  "status": "PUBLISH",
+  "authors": [
+    "MIchael Barlotta"
+  ],
+  "categories": []
+},{
+  "_id": 659,
+  "title": "Learn Windows PowerShell in a Month of Lunches, Second Edition",
+  "isbn": "1617291080",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1352707200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Don Jones",
+    "Jeffery D. Hicks"
+  ],
+  "categories": []
+},{
+  "_id": 662,
+  "title": "AOP in .NET",
+  "isbn": "1617291145",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1371798000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/groves.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Matthew D. Groves"
+  ],
+  "categories": []
+},{
+  "_id": 663,
+  "title": "Learn PowerShell Toolmaking in a Month of Lunches",
+  "isbn": "1617291161",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1355299200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones4.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Don Jones",
+    "Jeffery Hicks"
+  ],
+  "categories": []
+},{
+  "_id": 664,
+  "title": "CMIS and Apache Chemistry in Action",
+  "isbn": "1617291153",
+  "pageCount": 0,
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mueller.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Florian Müller",
+    "Jay Brown",
+    "Jeff Potts"
+  ],
+  "categories": []
+},{
+  "_id": 667,
+  "title": "Action Guide (aka VB .NET)",
+  "isbn": "1930110324",
+  "pageCount": 0,
+  "status": "PUBLISH",
+  "authors": [
+    "Paul Messick"
+  ],
+  "categories": []
+},{
+  "_id": 670,
+  "title": "Learn Active Directory Management in a Month of Lunches",
+  "isbn": "1617291196",
+  "pageCount": 0,
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Richard Siddaway"
+  ],
+  "categories": []
+},{
+  "_id": 672,
+  "title": "The Mikado Method",
+  "isbn": "1617291218",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1394006400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ellnestam.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Ola Ellnestam",
+    "Daniel Brolund"
+  ],
+  "categories": []
+},{
+  "_id": 677,
+  "title": "Fast ASP.NET Websites",
+  "isbn": "1617291250",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1377759600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hume.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Dean Alan Hume"
+  ],
+  "categories": []
+},{
+  "_id": 679,
+  "title": "PowerShell Deep Dives",
+  "isbn": "1617291315",
+  "pageCount": 0,
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hicks.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Edited by Jeffery Hicks",
+    "Richard Siddaway",
+    "Oisin Grehan",
+    "",
+    "Aleksandar Nikolic"
+  ],
+  "categories": []
+},{
+  "_id": 680,
+  "title": "Gradle in Action",
+  "isbn": "1617291307",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1392710400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/muschko.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Benjamin Muschko"
+  ],
+  "categories": []
+},{
+  "_id": 686,
+  "title": "C# in Depth, Third Edition",
+  "isbn": "161729134X",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1379574000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeet3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Jon Skeet"
+  ],
+  "categories": []
+},{
+  "_id": 691,
+  "title": "The Joy of Clojure, Second Edition",
+  "isbn": "1617291412",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1401346800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/fogus2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Michael Fogus",
+    "Chris Houser"
+  ],
+  "categories": []
+},{
+  "_id": 692,
+  "title": "iOS 7 in Action",
+  "isbn": "1617291420",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1396508400000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lim2.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Brendan G. Lim",
+    "Martin Conte Mac Donell"
+  ],
+  "categories": []
+},{
+  "_id": 696,
+  "title": "Ember.js in Action",
+  "isbn": "1617291455",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1402383600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeie.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Joachim Haagen Skeie"
+  ],
+  "categories": []
+},{
+  "_id": 706,
+  "title": "Practical Data Science with R",
+  "isbn": "1617291560",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1396422000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/zumel.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Nina Zumel",
+    "John Mount"
+  ],
+  "categories": []
+},{
+  "_id": 707,
+  "title": "Secrets of the JavaScript Ninja pBook upgrade",
+  "pageCount": 0,
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": 723,
+  "title": "Windows Phone 8 in Action",
+  "isbn": "1617291374",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1388476800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/binkley.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Timothy Binkley-Jones",
+    "Massimo Perga",
+    "Michael Sync",
+    "Adam Benoit"
+  ],
+  "categories": []
+},{
+  "_id": 728,
+  "title": "The Well-Grounded Rubyist, Second Edition",
+  "isbn": "1617291692",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1403593200000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black3.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "David A. Black"
+  ],
+  "categories": []
+},{
+  "_id": 765,
+  "title": "Learn SQL Server Administration in a Month of Lunches",
+  "isbn": "1617292133",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1399014000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones5.jpg",
+  "status": "PUBLISH",
+  "authors": [
+    "Don Jones"
+  ],
+  "categories": []
+},{
+  "_id": {
+    "$oid": "53c2ae8528d75d572c06ada1"
+  },
+  "title": "The Well-Grounded Java Developer",
+  "isbn": "1617290068",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1341903600000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/evans.jpg",
+  "shortDescription": "The Well-Grounded Java Developer is a unique guide written for developers with a solid grasp of Java fundamentals. It provides a fresh, practical look at new Java 7 features along with the array of ancillary technologies that a working developer will use in building the next generation of business software.    The book starts with thorough coverage of new Java 7 features. You'll then explore a cross-section of emerging JVM-based languages, including Groovy, Scala, and Clojure. Along the way, you'll find dozens of valuable development techniques showcasing modern approaches to concurrency and performance.",
+  "longDescription": "The Java community has always been dynamic and fast-moving, with constant innovation on the core platform as well as a vibrant community ecosystem. New JVM-based languages like Groovy, Scala, and Clojure are redefining what it means to be a Java developer. The core Standard and Enterprise APIs now co-exist with a large and growing body of open source technologies. Multicore processors, concurrency, and massive data stores require new patterns and approaches to development. And with Java 7 due to release in 2011, there's still more to absorb.    The Well-Grounded Java Developer is a unique guide written for developers with a solid grasp of Java fundamentals. It provides a fresh, practical look at new Java 7 features along with the array of ancillary technologies that a working developer will use in building the next generation of business software.    The book starts with thorough coverage of new Java 7 features. You'll then explore a cross-section of emerging JVM-based languages, including Groovy, Scala, and Clojure. Along the way, you'll find dozens of valuable development techniques showcasing modern approaches to concurrency and performance.",
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": {
+    "$oid": "53c2ae8528d75d572c06adb0"
+  },
+  "title": "Hello! iOS Development",
+  "isbn": "1935182986",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1374994800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/franco.jpg",
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": {
+    "$oid": "53c2ae8528d75d572c06adb9"
+  },
+  "title": "Database Programming for Handheld Devices",
+  "isbn": "1884777856",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "962434800000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gorgani.jpg",
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": {
+    "$oid": "53c2ae8528d75d572c06adbb"
+  },
+  "title": "Browsing with HttpClient",
+  "isbn": "1932394524a-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal1.jpg",
+  "shortDescription": "Written for developers and architects with real work to do, the Jakarta Commons Online Bookshelf is a collection of 14 PDF modules, each focused on one of the main Commons components. Commons is a collection of over twenty open-source Java tools broadly ranging from logging, validation, bean utilities and XML parsing. The Jakarta Commons Online Bookshelf summarizes the rationale behind each component and then provides expert explanations and hands-on examples of their use. You will learn to easily incorporate the Jakarta Commons components into your existing Java applications.",
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+},{
+  "_id": {
+    "$oid": "53c2ae8528d75d572c06adbc"
+  },
+  "title": "Codec: Encoders and Decoders",
+  "isbn": "1932394524j-e",
+  "pageCount": 0,
+  "publishedDate": {
+    "$date": {
+      "$numberLong": "1109664000000"
+    }
+  },
+  "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal10.jpg",
+  "status": "PUBLISH",
+  "authors": [],
+  "categories": []
+}]
