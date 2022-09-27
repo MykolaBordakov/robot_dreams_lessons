@@ -1,0 +1,4 @@
+{ status: "PUBLISH", pageCount: { $lt: 30 } }
+Запит по книжкам 
+{ category_code: "news", founded_year: { $lt: 2004 } }
+{ status: "PUBLISH", pageCount: { $lt: 400 } }
