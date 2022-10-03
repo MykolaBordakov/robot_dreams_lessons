@@ -11,7 +11,6 @@ terraform {
 
 provider "aws" {
   region = "us-west-2"
-  #shared_credentials_file = "Teraform-machine_accessKeys.csv"
   
 }
 
@@ -45,7 +44,7 @@ resource "aws_security_group" "main" {
     {
       cidr_blocks      = ["0.0.0.0/0", ]
       description      = ""
-      name        = "SSH main getway"
+      name             = "SSH main getway"
       from_port        = 22
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
@@ -55,28 +54,28 @@ resource "aws_security_group" "main" {
       to_port          = 22
     },
     {
-      from_port   = 80
-      name        = "NGINX Port HTTP"
+      from_port        = 80
+      name             = "NGINX Port HTTP"
       description      = ""
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
       security_groups  = []
       self             = false
-      protocol    = "tcp"
-      to_port     = 80
-      cidr_blocks = ["0.0.0.0/0"]
+      protocol         = "tcp"
+      to_port          = 80
+      cidr_blocks      = ["0.0.0.0/0"]
     },
     {
-      from_port   = 443
-      name        = "NGINX Port HTTPS"
+      from_port        = 443
+      name             = "NGINX Port HTTPS"
       description      = ""
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
       security_groups  = []
       self             = false
-      protocol    = "tcp"
-      to_port     = 443
-      cidr_blocks = ["0.0.0.0/0"]
+      protocol         = "tcp"
+      to_port          = 443
+      cidr_blocks      = ["0.0.0.0/0"]
     }
   ]
 }

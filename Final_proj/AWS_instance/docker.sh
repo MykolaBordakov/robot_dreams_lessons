@@ -45,15 +45,28 @@ sudo mkdir /home/${username}/jenkins_vol
 sudo chmod 777 /home/${username}/jenkins_vol
 docker run -d --name myjenkins -e JENKINS_OPTS="--prefix=/jenkins" -p 8080:8080  -v /home/${username}/jenkins_vol:/var/jenkins_home jenkins/jenkins
 
-sudo unlink /etc/nginx/sites-enabled/default
+#sudo unlink /etc/nginx/sites-enabled/default
+#Створюєм HTTPS сертифікат
+country=GB
+state=Nottingham
+locality=Nottinghamshire
+organization=dude.net
+organizationalunit=IT
+email=administrator@dude.net
+sudo mkdir /etc/nginx/ssl
+sudo touch /home/${username}/results/cert.txt
+sudo chmod 777 /home/${username}/results/cert.txt 
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt \
+-subj "/C=$country/ST=$state/L=$locality/O=$organization/OU=$organizationalunit/CN=$commonname/emailAddress=$email" >> /home/${username}/results/cert.txt 
 sudo touch /etc/nginx/sites-available/nginx.conf
 sudo chmod 777 /etc/nginx/sites-available/nginx.conf
 sudo echo "server {
-    listen 80;
+    listen 443 ssl;
+    ssl_certificate /etc/nginx/ssl/nginx.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx.key;
     location /jenkins {
         proxy_pass http://0.0.0.0:8080/jenkins;
     }
 }" >> /etc/nginx/sites-available/nginx.conf
 sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
-sudo service nginx restart
-sudo chmod 755 /etc/nginx/sites-available/nginx.conf
+sudo systemctl restart nginx
