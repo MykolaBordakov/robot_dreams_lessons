@@ -12,8 +12,7 @@ terraform {
 provider "aws" {
   region = "us-west-2"
   #shared_credentials_file = "Teraform-machine_accessKeys.csv"
-  access_key = "AKIAY4MDDC37W23NQPUQ"
-  secret_key = "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"
+  
 }
 
 resource "aws_instance" "app_server" {
