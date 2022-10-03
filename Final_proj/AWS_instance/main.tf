@@ -10,9 +10,10 @@ terraform {
 }
 
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "pppp"
-  secret_key = "lolk"
+  region = "us-west-2"
+  #shared_credentials_file = "Teraform-machine_accessKeys.csv"
+  access_key = "AKIAY4MDDC37W23NQPUQ"
+  secret_key = "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"
 }
 
 resource "aws_instance" "app_server" {
@@ -20,6 +21,7 @@ resource "aws_instance" "app_server" {
   instance_type          = "t2.micro"
   key_name               = "Teraform-key"
   vpc_security_group_ids = [aws_security_group.main.id]
+  user_data              = file("./docker.sh")
 
   tags = {
     Name = "Core_instance"
@@ -44,6 +46,7 @@ resource "aws_security_group" "main" {
     {
       cidr_blocks      = ["0.0.0.0/0", ]
       description      = ""
+      name        = "SSH main getway"
       from_port        = 22
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
@@ -51,6 +54,30 @@ resource "aws_security_group" "main" {
       security_groups  = []
       self             = false
       to_port          = 22
+    },
+    {
+      from_port   = 80
+      name        = "NGINX Port HTTP"
+      description      = ""
+      ipv6_cidr_blocks = []
+      prefix_list_ids  = []
+      security_groups  = []
+      self             = false
+      protocol    = "tcp"
+      to_port     = 80
+      cidr_blocks = ["0.0.0.0/0"]
+    },
+    {
+      from_port   = 443
+      name        = "NGINX Port HTTPS"
+      description      = ""
+      ipv6_cidr_blocks = []
+      prefix_list_ids  = []
+      security_groups  = []
+      self             = false
+      protocol    = "tcp"
+      to_port     = 443
+      cidr_blocks = ["0.0.0.0/0"]
     }
   ]
 }
