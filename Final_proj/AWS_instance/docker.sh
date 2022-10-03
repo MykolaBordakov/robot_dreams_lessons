@@ -45,3 +45,15 @@ sudo mkdir /home/${username}/jenkins_vol
 sudo chmod 777 /home/${username}/jenkins_vol
 docker run -d --name myjenkins -e JENKINS_OPTS="--prefix=/jenkins" -p 8080:8080  -v /home/${username}/jenkins_vol:/var/jenkins_home jenkins/jenkins
 
+sudo unlink /etc/nginx/sites-enabled/default
+sudo touch /etc/nginx/sites-available/nginx.conf
+sudo chmod 777 /etc/nginx/sites-available/nginx.conf
+sudo echo "server {
+    listen 80;
+    location /jenkins {
+        proxy_pass http://0.0.0.0:8080/jenkins;
+    }
+}" >> /etc/nginx/sites-available/nginx.conf
+sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+sudo service nginx restart
+sudo chmod 755 /etc/nginx/sites-available/nginx.conf
