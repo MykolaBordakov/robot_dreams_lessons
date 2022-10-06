@@ -45,7 +45,7 @@ sudo mkdir /home/${username}/jenkins_vol
 sudo chmod 777 /home/${username}/jenkins_vol
 docker run -d --name myjenkins -e JENKINS_OPTS="--prefix=/jenkins" -p 8080:8080  -v /home/${username}/jenkins_vol:/var/jenkins_home jenkins/jenkins
 
-#sudo unlink /etc/nginx/sites-enabled/default
+sudo unlink /etc/nginx/sites-enabled/default
 #Створюєм HTTPS сертифікат
 country=GB
 state=Nottingham
@@ -69,4 +69,24 @@ sudo echo "server {
     }
 }" >> /etc/nginx/sites-available/nginx.conf
 sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+#Додаєм образ графани
+#ip_garf=$(wget -qO- http://ipecho.net/plain | xargs echo)
+docker pull grafana/grafana
+docker run -d   -p 3000:3000   --name=grafana \
+grafana/grafana
+sudo touch /etc/nginx/sites-available/nginx_graf.conf
+sudo chmod 777 /etc/nginx/sites-available/nginx_graf.conf
+
+
+sudo echo "server {
+    listen 443 ssl;
+    ssl_certificate /etc/nginx/ssl/nginx.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx.key;
+    location /grafana {
+        proxy_pass http://0.0.0.0:3000;
+    }
+}" >> /etc/nginx/sites-available/nginx_graf.conf
+
+
+sudo ln -s /etc/nginx/sites-available/nginx_graf.conf /etc/nginx/sites-enabled/nginx_graf.conf
 sudo systemctl restart nginx
