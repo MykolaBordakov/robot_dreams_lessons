@@ -43,7 +43,7 @@ docker-compose version >> /home/${username}/results/docker-install.txt
 docker pull jenkins/jenkins
 sudo mkdir /home/${username}/jenkins_vol
 sudo chmod 777 /home/${username}/jenkins_vol
-docker run -d --name myjenkins -e JENKINS_OPTS="--prefix=/jenkins" -p 8080:8080  -v /home/${username}/jenkins_vol:/var/jenkins_home jenkins/jenkins
+docker run -d --name myjenkins -e JENKINS_OPTS="--prefix=/jenkins" -p 8080:8080  -v /home/${username}/jenkins_vol:/var/jenkins_home -v $(which docker):/usr/bin/docker jenkins/jenkins
 
 sudo unlink /etc/nginx/sites-enabled/default
 #Створюєм HTTPS сертифікат
